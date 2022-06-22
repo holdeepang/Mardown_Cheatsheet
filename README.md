@@ -67,8 +67,9 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Fenced Code Block
 
-```
+```C++
 {
+  "Specify the language at the start of the fence to get colors !"
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
@@ -87,8 +88,8 @@ Here's a sentence with a footnote. [^1]
 
 ### Definition List
 
-term
-: definition
+<dt>term</dt>
+<dd>: definition</dd>
 
 ### Strikethrough
 
@@ -108,12 +109,12 @@ That is so funny! :joy:
 
 ### Highlight
 
-I need to highlight these ==very important words==.
+I need to highlight these <mark>very important words</mark>.
 
 ### Subscript
 
-H~2~O
+H<sub>2</sub>O
 
 ### Superscript
 
-X^2^
+X<sup>2</sup>
