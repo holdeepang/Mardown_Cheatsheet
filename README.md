@@ -116,7 +116,7 @@ That is so funny! :joy:
 
 ### Highlight
 
-I need to highlight these <mark style="background-color: lightblue">Marked text</mark>.
+I need to highlight these <mark>very important words</mark>.
 
 ### Subscript
 
@@ -125,3 +125,7 @@ H<sub>2</sub>O
 ### Superscript
 
 X<sup>2</sup>
+
+### Link to a specific part of the page:
+
+[Go To TOP](#TOP)
