@@ -65,9 +65,16 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | Header | Title |
 | Paragraph | Text |
 
+### Table 2
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 ### Fenced Code Block
 
-```C++
+```cpp
 {
   "Specify the language at the start of the fence to get colors !"
   "firstName": "John",
@@ -109,7 +116,7 @@ That is so funny! :joy:
 
 ### Highlight
 
-I need to highlight these <mark>very important words</mark>.
+I need to highlight these <mark style="background-color: lightblue">Marked text</mark>.
 
 ### Subscript
 
