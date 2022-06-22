@@ -42,6 +42,25 @@ These are the elements outlined in John Gruber’s original design document. All
 
 `code`
 
+### Colored and Highlight Text
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
+```json
+   // Code for coloring
+```
+```html
+   // Code for coloring
+```
+```js
+   // Code for coloring
+```
+```css
+   // Code for coloring
+```
+// etc.
+
 ### Horizontal Rule
 
 ---
@@ -113,10 +132,6 @@ Here's a sentence with a footnote. [^1]
 That is so funny! :joy:
 
 (See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these <mark>very important words</mark>.
 
 ### Subscript
 
